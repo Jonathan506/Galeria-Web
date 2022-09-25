@@ -1,19 +1,7 @@
 *{
-    padding: 0;
-    margin: 0;
     box-sizing: border-box;
-    font-family: 'Dancing Script', cursive;
-}
-
-header, h2, h3{
     color: rgba(255, 255, 255, .4);
-}
-
-h1{
-    font-size: 3em;
-    line-height: 1;
-    margin: 1em 0 0;
-    margin-bottom: 0.5em;
+    font-family: 'Dancing Script', cursive;
 }
 
 body{
@@ -23,51 +11,52 @@ body{
     text-align: center;
 }
 
-section{
+.primary-title{
+    font-size: 3em;
+    line-height: 1rem;
+    margin: 1em 0 0.5em;
+}
+
+.content{
     padding-bottom: 3em;
 }
 
-section h3{
+.content h2{
+    font-size: 2.4em;
+    padding-bottom: 25px;
+}
+
+.content-article h3{
     padding-bottom: 2em;
     font-size: 1.8em;
 }
 
-section h2{
-    padding-bottom: 25px;
-    font-size: 2.4em;
-}
-
-article{
+.content-article{
     width: 80%;
     max-width: 70em;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
     position: relative;
-    /* border: 5px solid red; */
 }
 
-ul{
+.list{
     list-style: none;
 }
 
-ul li{
+.list li{
     display: inline-block;
     position: relative;
     z-index: 0;
     transition: all .4s;
 }
 
-/* .jonathan{
-    width: 300px;
-    height: 300px;
-} */
-
-ul li a img{
+.list img{
     display: block;
     width: 275px;
     height: auto;
 }
 
-ul li a{
+.list a{
     background-color: #fff;
     box-shadow: 0 0 10px 3px rgba(0, 0, 0, .7);
     margin: 0 6px 20px;
@@ -78,7 +67,7 @@ ul li a{
     display: inline-block;
 }
 
-ul li a:after{
+.list a:after{
     content: attr(title);
     color: #333;
     font-size: 1.25em;
@@ -119,5 +108,9 @@ footer{
     background-color: rgba(255, 255, 255, .25);
     color: rgba(255, 255, 255, .7);
     font-size: 1.5em;
-    padding: 1.25em;
+    padding: 1em;
+}
+
+footer p{
+    display: inline;
 }

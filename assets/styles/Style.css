@@ -44,6 +44,7 @@ body{
 
 .list-item{
     display: inline-block;
+    position: relative;
     transition: all .4s;
     z-index: 0;
 }

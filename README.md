@@ -1,3 +1,3 @@
-#  WEB GALLERY
+# WEB GALLERY
 
 ![Preview](/Preview.png)

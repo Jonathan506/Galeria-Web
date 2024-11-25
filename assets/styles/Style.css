@@ -46,7 +46,6 @@ body{
     display: inline-block;
     position: relative;
     transition: all .4s;
-    z-index: 0;
 }
 
 .list-image{
@@ -63,7 +62,6 @@ body{
     margin: 0 6px 20px;
     padding: 10px 10px 25px;
     text-decoration: none;
-    z-index: 0;
 }
 
 .list-link:after{
